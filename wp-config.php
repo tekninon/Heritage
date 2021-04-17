@@ -18,20 +18,24 @@
  * @link https://fr.wordpress.org/support/article/editing-wp-config-php/.
  *
  * @package WordPress
+ * 
+ * 
  */
+
+ define('FS_METHOD','direct'); 
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'heritage' );
+define( 'DB_NAME', 'dbs1823041' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'dbu532686' );
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'W95raufr*' );
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db5002261701.hosting-data.io' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

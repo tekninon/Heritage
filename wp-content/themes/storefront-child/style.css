@@ -1,0 +1,53 @@
+/*
+ Theme Name:   Storefront Child
+ Description:  Storefront Child Theme
+ Author:       Ninon
+ Template:     storefront
+ Version:      1.0.0
+ Text Domain:  storefront-child
+*/
+
+
+.menu-menu-gauche-container ul, .menu-menu-droit-container ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+.menu-menu-gauche-container li , .menu-menu-droit-container li{
+    margin-left:2px;
+    float:left; /*pour IE*/
+}
+.menu-menu-droit-container ul li a {
+    display:block;
+    float:left;
+    width:100px;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+
+}
+.menu-menu-gauche-container ul li a {
+    display:block;
+    float:left;
+    width:100px;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+    margin-left : 45px;
+    margin-right : 45px;
+}
+
+
+.menu-total  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-droit {
+    justify-content: flex-end;
+}
+
